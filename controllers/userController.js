@@ -20,7 +20,6 @@ export const addUser = async (req, res, next) => {
 export const updateUser = async (req, res) => {
   const { email } = req.params;
   const { location } = req.body;
-  console.log(email, location);
   try {
     const user = await User.findOneAndUpdate(
       { email },
