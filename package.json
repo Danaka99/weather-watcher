@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "cls && node --watch --env-file=.env app"
+    "start": "node --watch --env-file=.env app"
   },
   "keywords": [],
   "author": "Danaka Lakdineepa",
